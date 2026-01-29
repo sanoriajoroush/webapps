@@ -1,0 +1,3 @@
+gunicorn --bind 127.0.0.1:5000 app:app 
+
+http://172.17.100.15:9899/sanoria/webapp/app2
