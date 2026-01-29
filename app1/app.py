@@ -15,7 +15,7 @@ def app(environ, start_response):
         title = "Hello Page"
         message = "Rendered using Jinja2"
     else:
-        title = "Home"
+        title = "Welcome to Sanoria's Home Page!"
         message = "Plain Python + Gunicorn + Nginx"
 
     template = env.get_template("home.html")
